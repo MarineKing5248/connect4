@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  cursor: url("cursormiddle.ico"), default;
+}
+body {
+  background: url(background.jpg) center fixed;
+  height: 100%;
+}
+header {
+  height: 200px;
+  width: 100%;
+  padding: 10px 10px;
+}
+header img {
+  margin: -5px 0 0 -5px;
+  height: 130px;
+  background-size: contain;
+}
+
+header #Alliance {
+  float: right;
+}
+
+header #Horder {
+}
+
+#title {
+  top: 0;
+  font-size: 60px;
+  font-family: fantasy;
+  color: rgb(189, 66, 34);
+  position: absolute;
+  transform: translate(-50%, 0);
+  left: 50%;
+}
+
+.highlight {
+  filter: brightness(400%);
+  z-index: 200px;
+}
+
+section {
+  display: flex;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0.7;
+}
+.column {
+  z-index: 10;
+  background-color: grey;
+}
+
+.slot {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.alliance {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: url(Alliance.png);
+  background-size: contain;
+}
+
+.horde {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  background: url(Horde.png);
+  background-size: contain;
+}
+
+.victory {
+  height: 600px;
+  width: 800px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+.winA {
+  font-size: 70px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  color: blue;
+  text-align: center;
+  z-index: 0;
+  background: url(alliancewin.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.winB {
+  font-size: 70px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  color: red;
+  text-align: center;
+  z-index: 0;
+  background-image: url(hordewin.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.cursorA {
+  cursor: url("cursorA.ico"), default;
+}
+.cursorB {
+  cursor: url("cursorB.ico"), default;
+}

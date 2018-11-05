@@ -1,0 +1,23 @@
+1. HTML/CSS
+•slot
+a square elem with a circular elem in it
+a class on slot indicates the player who has claimed the slot and styles the circle accordingly
+•board
+The board has six rows and seven columns
+7 elements containing 6 slots(by column recommended)
+6 elements containing 7 slots
+all 42 slots in a single element
+
+2.JS
+•keep track of current player
+•column selection
+     backward loop
+•check for victory
+     vertically
+     horizontally
+     diagonally
+•if the current player has won, show victory message
+while victory message is displayed, it should be impossible to play
+victory message should give user ability to restart game
+
+•if there is no victory switchPlayers
